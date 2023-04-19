@@ -1,0 +1,31 @@
+﻿<Application x:Class="ModernDesingUI.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:ModernDesingUI"
+             xmlns:viewModel="clr-namespace:ModernDesingUI.MVVM.ViewModel"
+             xmlns:view="clr-namespace:ModernDesingUI.MVVM.View"
+             StartupUri="MainWindow.xaml"
+             >
+    <Application.Resources>
+        <!--Adiciona os dicionários de recursos-->
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Theme/MenuButtonTheme.xaml"></ResourceDictionary>
+                <ResourceDictionary Source="Theme/TextBoxTheme.xaml"></ResourceDictionary>
+            </ResourceDictionary.MergedDictionaries>
+
+            <!--adiciona as views-->
+            <DataTemplate DataType="{x:Type viewModel:HomeViewModel}">
+                <view:HomeView/>
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type viewModel:DiscoveryViewModel}">
+                <view:DiscoveryView/>
+            </DataTemplate>
+
+
+        </ResourceDictionary>
+        
+        
+    </Application.Resources>
+</Application>
