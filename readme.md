@@ -1,9 +1,10 @@
 # [PT-BR]
 # Projeto de estudo de MVVM e UI Design em C# e WPF
 
-<img src="https://drive.google.com/file/d/1TFzjYk1m_ZWQZPR8MEHSJT_CDl7XCnaI/view?usp=share_link">
-
 Este projeto foi desenvolvido como um tutorial para treinar a arquitetura MVVM e o design de interface do usuário (UI Design) utilizando C# e WPF.
+
+<img src="PrintScreen\UIModernDesign.png" width="500">
+<a href="https://www.youtube.com/watch?v=PzP8mw7JUzI&list=PLOJCv0IT2Re0j2NFVyLLGOno1YJX3q8ns&index=6&t=1s&ab_channel=Payload">Link para tutorial | Link to tutorial</a>
 
 ## Tecnologias utilizadas
 - C# 
@@ -19,9 +20,6 @@ Este projeto foi desenvolvido como um tutorial para treinar a arquitetura MVVM e
 2. Certifique-se de ter as versões mais recentes do Visual Studio, C#, WPF e .NET Framework instaladas em sua máquina
 3. Abra a solução "ModernDesingUI.sln" no Visual Studio
 4. Pressione F5 ou clique em "Iniciar" para compilar e executar o projeto
-
-## Licença
-Este projeto está licenciado sob a licença MIT. Consulte o arquivo LICENSE para obter mais informações.
 
 # [EN-US]
 
@@ -43,6 +41,3 @@ This project was developed as a tutorial to practice the MVVM architecture and u
 2. Make sure you have the latest versions of Visual Studio, C#, WPF, and .NET Framework installed on your machine
 3. Open the "ModernDesingUI.sln" solution in Visual Studio
 4. Press F5 or click "Start" to build and run the project
-
-## License
-This project is licensed under the MIT license. See the LICENSE file for more information.
